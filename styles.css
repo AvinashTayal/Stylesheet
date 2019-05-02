@@ -14,18 +14,20 @@ body {
 .page {
     position: relative;
     width: 210mm;
-    /* min-height: 300mm; */
     padding: 0mm;
     margin: 10mm auto;
     /* border: 1px #D3D3D3 solid; */
     border-radius: 5px;
     background: white;
+    font-family: Arial, Helvetica, sans-      serifserif;
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
 }
 .subpage {
     padding: 1cm;
-    border: 5px #ccc solid;
-    outline: 2cm whitesmoke solid;
+    min-height: 297mm;
+  background-color: white;
+/*     border: 5px #ccc solid; */
+/*     outline: 2cm whitesmoke solid; */
 }
 
 @page {
@@ -183,6 +185,7 @@ visibility: hidden;
 .page-link{
   font-weight: bold;
   font-size: 13px;
+  margin-bottom:10px;
 }
 
 .full-view-link{
@@ -191,22 +194,99 @@ visibility: hidden;
 }
 
 .sd-headers{
-  width: 13.7%;
+    width: 48%;
+    margin-left: 4px;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: .8px solid black;
+}
+
+.sd-headers-title{
+    height: 35px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.sd-headers-value{
+    text-align: center;
+}
+
+.Select-value-label{
+  color: blue !important;
+}
+
+.starts-completes-title{
+    height: 35px;
+    padding: 4px 3px;
+    margin-bottom: 2px;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.starts-completes-value{
+  text-align: center;
+  height: 30px;
+}
+
+.starts-completes-headers{
+   width: 13.7%;
   margin-left: .5%;
   font-size: 12px;
-  background-color: grey;
   margin-top: 10px;
   text-align: center;
 }
 
-.sd-headers-title{
-  padding: 2px 5px;
-  margin-bottom: 2px;
+.sd-table td{
+  padding-left: 2px;
 }
 
-.sd-headers-value{
-  text-align: center;
-  margin-top: px;
-  padding-top: 5px;
-  height: 30px;
+.qual-table td{
+  padding: 5px;
+  font-size: 15px;
+  border: .5px solid black;
+}
+
+.qual-table th{
+  padding:5px;
+  font-size: 20px;
+  border: .5px solid black;
+}
+
+.qual-table-title{
+  background-color: #E3B945;
+  -webkit-print-color-adjust: exact;
+}
+
+.sd-table{
+  font-size: 15px;
+  border: .8px solid black;
+}
+
+.trends{
+  height: 500px;
+  width: 100%;
+}
+
+.frequency{
+  height: 100%;
+  width:100%;
+  
+}
+
+.frequency-div{
+  margin-top:10px;
+  height:540px;
+}
+
+._dash-undo-redo {
+  display: none;
+}
+
+.logo{
+  background-color:black !important;
+  -webkit-print-color-adjust: exact;
 }
